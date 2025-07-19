@@ -6,12 +6,14 @@ import LayoutOne from './layout/LayoutOne'
 import { Home } from './pages/Home'
 import { Shop } from './pages/Shop'
 
+
 function App() {
 const myRoute = createBrowserRouter(createRoutesFromElements(
   <Route>
     <Route path='/' element={<LayoutOne/>}>
     <Route index element={<Home/>}/>
     <Route path='/shop' element={<Shop/>}/>
+    
 
     </Route>
   </Route>
