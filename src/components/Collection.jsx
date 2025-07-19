@@ -18,7 +18,7 @@ export const Collection = () => {
             </div>
         </div>
     </section>
-    {/* <span className='w-full inline-block border border-[#E5E7EB]'></span> */}
+    
     </>
   )
 }
